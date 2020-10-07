@@ -28,6 +28,7 @@ p {
  font-size: 16px;
  cursor: pointer;
  float: left;
+ margin-left: 40%;
 }
 button:hover {
  background-color: #80a28c;
@@ -38,6 +39,5 @@ a {
 
 button {font-size: 24px;}
 button {border-radius: 4px;}
-button {width: 100%;}
 
 
