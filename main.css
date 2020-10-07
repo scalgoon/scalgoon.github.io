@@ -30,12 +30,13 @@ p {
  float: left;
 }
 button:hover {
- background-color: #d0f7de;
+ background-color: #80a28c;
 }
 a {
  color: white;
 }
 
 button {font-size: 24px;}
+button {border-radius: 4px;}
 
 
