@@ -28,7 +28,7 @@ p {
  position: center; 
  border: 3px solid green;
  margin: 0;
- position: absolute;
+ position: center;
  top: 50%;
  -ms-transform: translateY(-50%);
 }
