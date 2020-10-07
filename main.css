@@ -27,13 +27,13 @@ p {
  display: inline-block;
  font-size: 16px;
  cursor: pointer;
- margin: 0;
- align: center;
- top: 50%;
- float: center;
+ float: left;
 }
 button:hover {
  background-color: #d0f7de;
+}
+a {
+ color: white;
 }
 
 
