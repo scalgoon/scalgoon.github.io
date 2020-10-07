@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  background-color: #34eba4;
+  background-color: #6fd189;
 }
 h1 {
   font-size: 5rem;
@@ -16,7 +16,7 @@ p {
   color: white;
 }
  button {
- background-color: #9ee6ca; /* Green */
+ background-color: #6ca17a ; /* Green */
  border: none;
  color: white;
  padding: 15px 32px;
