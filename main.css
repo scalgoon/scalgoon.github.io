@@ -1,14 +1,14 @@
- .header {
+ footer {
   padding: 60px;
   font-family: system-ui, sans-serif;
   background-color: #6fd189;
   font-size: 30px;
   text-align: center;
 }
-h1 {
+p {
  font-size: 5rem;
  margin: 7rem 1.25rem 2.5rem 1.25rem;
- text-align: center;
+ text-align: left;
  color: white;
 }
  button {
