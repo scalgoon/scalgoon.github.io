@@ -21,6 +21,7 @@ p {
  display: inline-block;
  font-size: 16px;
  cursor: pointer;
+ float: right;
 }
 button:hover {
  background-color: #80a28c;
@@ -30,6 +31,5 @@ a {
 }
 
 button {font-size: 24px;}
-button {width: 100%;}
 
 
