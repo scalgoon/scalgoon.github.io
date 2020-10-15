@@ -65,13 +65,13 @@ a {
 
 p {
  font-family: system-ui, sans-serif;
- float: left;
  color: white;
+ margin-right: 80%;
 }
 
 h1 {
  font-family: system-ui, sans-serif;
- float: left;
+ margin-right: 80%;
  color: white;
 }
 
