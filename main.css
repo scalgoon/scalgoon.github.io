@@ -25,11 +25,11 @@ body {
 .logo-container {
   height: 100%;
   display: block;
-  margin-left: 45%;
+  margin-left: 40%;
 }
 
 .logo img{
-  width:100px;
+  width:300px;
 }
 
  button {
