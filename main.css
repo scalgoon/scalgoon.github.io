@@ -10,9 +10,17 @@
 body {
   background-size: cover;
   background-color: white;
+  margin: 0;
+  padding: 0;
   
 }
 
+.inner-header {
+  width: 90%;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
  button {
  background-color: #6ca17a ; /* Green */
  border: none;
