@@ -17,7 +17,7 @@ body {
 
 .inner-header {
   width: 90%;
-  height: 100px;
+  height: 1px;
   display: block;
   margin: 0 auto;
 }
@@ -32,6 +32,17 @@ body {
   width:300px;
 }
 
+.button-right-nav {
+  width: 80%;
+  margin-left: 80%;
+}
+
+.button {
+  vertical-align: middle;
+  display: table-cell;
+  padding: 20px;
+}
+
  button {
  background-color: #6ca17a ; /* Green */
  border: none;
@@ -43,7 +54,9 @@ body {
  font-size: 16px;
  cursor: pointer;
  float: right;
+ transition: 1s;
 }
+
 button:hover {
  background-color: #80a28c;
 }
@@ -56,5 +69,7 @@ font-family: system-ui, sans-serif;
 }
 
 button {font-size: 24px;}
+
+button {border-radius: 8px;}
 
 
