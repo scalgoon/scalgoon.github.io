@@ -54,6 +54,8 @@ body {
  cursor: pointer;
  float: right;
  transition: 1s;
+ font-size: 24px;
+ border-radius: 8px;
 }
 
 button:hover {
@@ -76,8 +78,6 @@ h1 span {
  font-weight: 1000;
 }
 
-button {font-size: 24px;}
 
-button {border-radius: 8px;}
 
 
