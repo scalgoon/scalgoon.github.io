@@ -21,6 +21,17 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+.logo-container {
+  height: 100%;
+  display: block;
+  float: left;
+}
+
+.logo img{
+  width:100px;
+}
+
  button {
  background-color: #6ca17a ; /* Green */
  border: none;
