@@ -25,12 +25,6 @@ body {
   margin: 0 auto;
 }
 
-.inner-footer {
-   
-    display: block;
-    width: 90%;
-    padding: 10px 0 0 30px;
-}
 
 footer {
     background-color: #273036;
