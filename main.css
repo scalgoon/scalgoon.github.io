@@ -11,7 +11,7 @@
 
 body {
   background-size: cover;
-  background-color: #2C2F33;
+  background-color: white;
   margin: 0;
   padding: 0;
   
@@ -78,7 +78,7 @@ a {
 
 h1 {
  font-family: system-ui, sans-serif;
- color: white;
+ color: #2C2F33;
  margin: 100px;
 }
 
@@ -92,7 +92,7 @@ h1 span {
 
 p {
   font-family: system-ui, sans-serif;
-  color: white;
+  color: #2C2F33;
   float: right:
 }
 
