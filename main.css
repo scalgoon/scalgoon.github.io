@@ -32,6 +32,13 @@ body {
     padding: 10px 0 0 30px;
 }
 
+footer {
+    background-color: #273036;
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+
 .logo-container {
   height: 100%;
   display: block;
@@ -92,7 +99,6 @@ h1 span {
 
 p {
   font-family: system-ui, sans-serif;
-  color: #2C2F33;
   float: right:
 }
 
@@ -103,7 +109,6 @@ p span {
 .bio_link {
   cursor: pointer;
   text-decoration: none;
-  color: #2C2F33;
 }
 
 .wave-container {
