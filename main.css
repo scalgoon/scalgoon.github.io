@@ -97,14 +97,14 @@ h1 span {
  width:400px;
 }
 
-p {
+h3 {
   font-family: system-ui, sans-serif;
   float: left;
   margin: 100px;
   color: white;
 }
 
-p span {
+h3 span {
  font-weight: 1000;
 }
 
