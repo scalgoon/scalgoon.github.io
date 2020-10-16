@@ -103,6 +103,7 @@ p span {
 .bio_link {
   cursor: pointer;
   text-decoration: none;
+  color: #2C2F33;
 }
 
 .wave-container {
