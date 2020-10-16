@@ -11,7 +11,7 @@
 
 body {
   background-size: cover;
-  background-color: white;
+  background-color: #2C2F33;
   margin: 0;
   padding: 0;
   
@@ -85,7 +85,7 @@ a {
 
 h1 {
  font-family: system-ui, sans-serif;
- color: #2C2F33;
+ color: white;
  margin: 100px;
 }
 
@@ -113,13 +113,7 @@ h3 span {
   text-decoration: none;
 }
 
-.wave-container {
-  position: relative;
-  background: white;
-  color: #FFF;
-  text-align: center;
-  overflow: hidden;
-}
+
 
 
 
