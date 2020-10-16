@@ -99,7 +99,7 @@ h1 span {
 
 p {
   font-family: system-ui, sans-serif;
-  float: right;
+  float: left;
   margin: 100px;
   color: white;
 }
