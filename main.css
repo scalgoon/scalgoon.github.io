@@ -85,14 +85,14 @@ h1 span {
  width:400px;
 }
 
-h3 {
+p {
   font-family: system-ui, sans-serif;
   float: left;
   margin: 100px;
   color: white;
 }
 
-h3 span {
+p span {
  font-weight: 1000;
 }
 
