@@ -102,6 +102,7 @@ p span {
 
 .bio_link {
   cursor: pointer;
+  text-decoration: none;
 }
 
 
