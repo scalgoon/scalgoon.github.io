@@ -95,14 +95,6 @@ p {
   color: white;
 }
 
-p span {
- font-weight: 1000;
-}
-
-p:hover {
- color: #27cc9a;
- font-size: 35px;
-}
 
 .bio_link {
  color: white;
