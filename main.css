@@ -54,7 +54,7 @@ body {
 }
 
  button {
- background-color: #2C2F33 ;
+ color: #2C2F33 ;
  border: none;
  color: white;
  padding: 15px 32px;
@@ -71,6 +71,7 @@ body {
 
 button:hover {
  background-color: #27cc9a;
+ font-size: 35px;
 }
 
 
