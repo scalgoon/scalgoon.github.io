@@ -73,16 +73,6 @@ button:hover {
  background-color: #27cc9a;
 }
 
-a {
- color: white;
- text-decoration: none;
- transition: 1s;
-}
-
-a:hover {
- color: #27cc9a;
- font-size: 35px;
-}
 
 h1 {
  font-family: system-ui, sans-serif;
@@ -101,6 +91,7 @@ h1 span {
 p {
   font-family: system-ui, sans-serif;
   float: left;
+  font-size: 24px;
   color: white;
 }
 
@@ -108,9 +99,20 @@ p span {
  font-weight: 1000;
 }
 
+p:hover {
+ color: #27cc9a;
+ font-size: 35px;
+}
+
 .bio_link {
-  cursor: pointer;
-  text-decoration: none;
+ color: white;
+ text-decoration: none;
+ transition: 1s;
+}
+
+.bio_link:hover {
+ color: #27cc9a;
+ font-size: 35px;
 }
 
 
