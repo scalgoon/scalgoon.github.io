@@ -38,7 +38,13 @@ body {
 }
 
 .button-right-nav {
-  margin-left: 80%;
+  float: right;
+  font-family: system-ui, sans-serif;
+  vertical-align: middle;
+  display: table-cell;
+  padding: 20px;
+  font-size: 24px;
+ font-weight: 100;
 }
 
 .button {
