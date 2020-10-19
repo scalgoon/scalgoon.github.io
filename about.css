@@ -35,6 +35,7 @@ body {
 
 .logo img{
   width:100px;
+  float: left;
 }
 
 .button-right-nav {
