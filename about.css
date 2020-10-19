@@ -31,11 +31,10 @@ body {
 .logo-container {
   height: 100%;
   display: block;
-  float: left;
+  margin-left: 35px;
 }
 
 .logo img{
-  width:300px;
   margin-left: 35px;
 }
 
