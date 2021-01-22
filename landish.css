@@ -1,0 +1,137 @@
+body, html {
+    background-size: cover;
+    background-color: #fff;
+    margin: 0;
+    font-family: system-ui, sans-serif;
+  }
+
+  hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
+
+
+
+  header {
+    background-color: #5000ca;
+    width: 100%;
+    height: 125px;
+    display: block;
+    top: 0;
+  }
+
+
+  a {
+      color: white;
+      text-decoration: none;
+      transition: 1s;
+  }
+
+  h1 {
+    color: white;
+    float: left;
+    margin-top: 0;
+    list-style-type: none;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 20px; 
+  }
+
+
+
+.options {
+  color: white;
+  float: right;
+  margin-top: 0;
+  list-style-type: none;
+  vertical-align: middle;
+  display: table-cell;
+  padding: 20px;
+}
+
+ /* Three columns side by side */
+ .column {
+ float: left;
+  width: 23.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.column1 {
+  float: right;
+  width: 23.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+  .column1 {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button1 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #5000ca;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  transition: 1s;
+}
+
+.button1:hover {
+  background-color: #7923fa;
+} 
+
+.new {
+  color: #5000ca;
+  text-align: center;
+}
+
+.textz {
+  text-align: center;
+  color: #5000ca;
+  font-size: 35px;
+}
+
+.text12 {
+  text-align: center;
+  color: #9c9c9c;
+  font-size: 25px;
+}
+
+.pointz {
+  color: #ce438f;
+  text-align: center;
+  fo
