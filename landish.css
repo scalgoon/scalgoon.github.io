@@ -1,3 +1,4 @@
+
 body, html {
     background-size: cover;
     background-color: #fff;
@@ -10,10 +11,26 @@ body, html {
     border-radius: 5px;
   }
 
+  .label {
+    color: white;
+    margin-left: 10%;
+    padding: 30px; 
+    margin-top: 0;
+    font-size: 17px;
+  }
+
 
 
   header {
-    background-color: #5000ca;
+    background-color: #7000cb;
+    width: 100%;
+    height: 125px;
+    display: block;
+    top: 0;
+  }
+
+  .header1 {
+    background-color: #00cba9;
     width: 100%;
     height: 125px;
     display: block;
@@ -23,7 +40,6 @@ body, html {
 
   a {
       text-decoration: none;
-      transition: 1s;
   }
 
   h1 {
@@ -121,6 +137,12 @@ body, html {
 .textz {
   text-align: center;
   color: #5000ca;
+  font-size: 35px;
+}
+
+.textz1 {
+  text-align: center;
+  color:  #00cba9;
   font-size: 35px;
 }
 
