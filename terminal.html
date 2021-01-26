@@ -15,17 +15,16 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 <body>
+  <div class="alert">
+    <span class="closebtn">&times;</span>  
+    Terminal is currently experiencing frequent outages due to WIFI issues. Note this means the bot may shut off for long periods of time
+  </div>
   <header class="header1">
     <h1>Terminal</h1>
-    <p class="label">Moderation</p>
   </header>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path fill="#00cba9" fill-opacity="1" d="M0,96L80,112C160,128,320,160,480,149.3C640,139,800,85,960,69.3C1120,53,1280,75,1360,85.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
   </svg>
-     <div class="alert">
-    <span class="closebtn">&times;</span>  
-    Terminal is currently experiencing frequent outages due to WIFI issues. Note this means the bot may shut off for long periods of time
-  </div>
   
   <script>
   var close = document.getElementsByClassName("closebtn");
@@ -39,18 +38,81 @@
     }
   }
   </script>
-  <br>
-  <br>
-  <br>
-  <br>
   <p class="textz1">About Terminal</p>
   <p class="text12">Terminal is a growing Moderation bot designed to make your servers easier to control</p>
-  <p class="text12">Terminals commands range from simple Mute and Ban to the more complicated commands like Setup, Prefix and Verify The commands get updated everyday so you should not run into any bugs</p>
+  <p class="text12">Terminal started off as a fun Community bot that led to a Moderation bot as it is now with one goal in mind</p> 
+  <br>
+  <p class="moto">- Simple Moderation -</p> 
+  <br>
+  <p class="text12">It's commands get updated daily to provide a easy experience with the bot</p>
   <p class="text12">If Terminal is the bot for you go ahead and add it <span><a href="https://discord.com/oauth2/authorize?client_id=745358062025703445&scope=bot&permissions=8">here</a></span></p>
   <br>
   <br>
+  <div class="greeen">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1" d="M0,256L1440,96L1440,0L0,0Z"></path>
+    </svg>
+  </div>
+  <div class="quot">
+    <div class="slideshow-container">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+      <!-- Full-width slides/quotes -->
+      <div class="mySlides">
+        <q>Great bot even better owner. You can tell he works very hard on his bot.</q>
+        <p class="author">Nelly-o</p>
+        <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+      </div>
+    
+      <div class="mySlides">
+        <q>Very good! No problems!</q>
+        <p class="author">DanTheDev</p>
+        <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+      </div>
+    
+      <div class="mySlides">
+        <q>This bot excels in all basic needs with even more features to come</q>
+        <p class="author">It's not an Apple</p>
+        <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+      </div>
+    
+      <!-- Next/prev buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    
+    <!-- Dots/bullets/indicators -->
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#00cba9" fill-opacity="1" d="M0,256L1440,96L1440,0L0,0Z"></path>
+  </svg>
+  <br>
+  <p class="textz1">The Developer</p>
+  <div class="chip">
+    <img src="https://cdn.discordapp.com/attachments/745403384139481118/803717116209135616/Untitled438_20210105170729.png" alt="Person" width="96" height="96">
+    <a class="chiptext" href="https://www.dsc.bio/gooselad">Goose</a>
+  </div> 
   <br>
   <br>
+  <br>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 <script>
 window.cookieconsent.initialise({
@@ -68,6 +130,37 @@ window.cookieconsent.initialise({
     "link": "Learn More"
   }
 });
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  }
 </script>
+<br>
+<br>
+<footer>
+  <p class="propo">Domain by Thedev.id</p>
+</footer>
 </body>
 </html>
