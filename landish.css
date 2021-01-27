@@ -342,3 +342,55 @@ footer {
 .chiptext {
   color: white;
 }
+
+.greeen1 {
+  background-color: #5000ca;
+}
+
+.pupul {
+  background-color: #5000ca;
+}
+
+.propo1 {
+  color: rgb(253, 253, 253);
+  text-align: center;
+}
+
+.quot1 {
+  background-color: #5000ca;
+}
+
+.textzzz {
+  text-align: center;
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.greeen1>a {
+  display: inline-flex;
+  text-decoration: none;
+  color: white;
+  padding: 15px 15px;
+  margin:0 15px;
+  font-size: 70px;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  transition: 0.2s;
+  margin-left: 48%;
+}
+
+.greeen1>a>i {
+  transition: 0.8spx;
+}
+
+@media screen and (max-width: 650px) {
+  .greeen1>a {
+    margin-left: 45%;
+  }
+}
+
+.whitez {
+  color: white;
+}
