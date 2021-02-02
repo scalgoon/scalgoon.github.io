@@ -394,3 +394,55 @@ footer {
 .whitez {
   color: white;
 }
+
+.icon {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .icon {
+    float: right;
+    margin-top: 0;
+    list-style-type: none;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 20px;
+    font-size: 26px;
+    color: white;
+    transition: 1s;
+  }
+
+  .icon:hover {
+    background-color: #9862e9;
+  }
+
+  .options {
+    display: none;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+}
+
+.responsive {
+  text-align: center;
+  background-color: #5000ca;
+  width: 100%;
+  padding: 50px 0;
+  scroll-behavior: au;
+  display: none;
+}
+
+.lonks {
+  color: #ffffff;
+  transition: 1s;
+  font-size: 24px;
+}
+
+.lonks:hover {
+  background-color: #38156e;
+  padding: 10px;
+  border-radius: 1rem;
+}
