@@ -93,6 +93,8 @@ body, html {
 /* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 1rem;
 }
 
 /* Some left and right padding inside the container */
@@ -503,4 +505,51 @@ footer {
     top: 15px;
     right: 35px;
   }
+}
+
+.accordion {
+  background-color: #5000ca;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  margin-left: 10%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #3c107e;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #faf6f6;
+  max-height: 0;
+  overflow: hidden;
+  width: 80%;
+  margin-left: 10%;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  font-size: 13px;
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
+
+.hed {
+color: #5000ca;
+font-size: 24px;
+font-weight: bold;
+margin-left: 10%;
+}
+
+.row {
+  margin-top: 1rem;
 }
