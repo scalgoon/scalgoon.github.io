@@ -553,3 +553,141 @@ margin-left: 10%;
 .row {
   margin-top: 1rem;
 }
+
+.accordion {
+  background-color: #5000ca;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  margin-left: 10%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #3c107e;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #faf6f6;
+  max-height: 0;
+  overflow: hidden;
+  width: 80%;
+  margin-left: 10%;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  font-size: 13px;
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
+
+.hed {
+color: #5000ca;
+font-size: 24px;
+font-weight: bold;
+margin-left: 10%;
+}
+
+.accordionz {
+  background-color: #727fe8;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  width: 80%;
+  margin-left: 10%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordionz:hover {
+  background-color: #505ba8;
+}
+
+.accordionz:after {
+  font-size: 13px;
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordionz .fas {
+  float: left;
+  font-size: 30px;
+  margin-top: 0;
+  list-style-type: none;
+  vertical-align: middle;
+  display: table-cell;
+  padding: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .accordionz .fas {
+    font-size: 25px;
+  }
+
+}
+
+.headerdocs {
+  background-color: #727fe8;
+  width: 100%;
+  height: 125px;
+  display: block;
+  top: 0;
+}
+
+.te {
+  text-align: left;
+}
+
+.helptex {
+  float: left;
+  color: #727fe8;
+  font-size: 25px;
+}
+
+.norm {
+  font-size: 20px;
+  color: black;
+  float: left;
+}
+
+.bal {
+  color: #727fe8;
+}
+ 
+.warnr .fas {
+  float: left;
+  color: #d64141;
+  padding-right: 7px;
+}
+
+.war {
+  color: #d64141;
+}
+
+.panel .solid {
+border-top: 2px solid #727fe8;
+}
+
+@media screen and (max-width: 650px) {
+  .helptex {
+    font-size: 20px; 
+  }
+
+  .war {
+    font-size: 15px;
+  }
+
+}
