@@ -691,3 +691,33 @@ border-top: 2px solid #727fe8;
   }
 
 }
+
+.postbox {
+  background-color: #00cba9;
+  padding: 1rem;
+}
+
+.hornborder .fas {
+  color: #0aa188;
+  padding: 1rem;
+  font-size: 40px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 1rem 1rem 0px 0px;
+  float: left;
+}
+
+.user {
+  padding: 1rem;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+
+.user {
+  padding-top: 4rem;
+ }
+
+}
