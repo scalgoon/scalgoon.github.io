@@ -58,8 +58,6 @@ window.onclick = function(event) {
 
 const ThemeToUse = localStorage.getItem("SiteTheme");
 
-console.log(ThemeToUse)
-
 if(ThemeToUse == 1) {
   document.body.classList.add("darkTheme"); 
 } else if (ThemeToUse == 2) {
