@@ -19,7 +19,7 @@
 <body>
   <header>
     <h1>Hello, I'm Goose</h1>
-    <!-- <p class="options"><a class="buble"><i class="fas fa-sun" style="padding: 5px;"></i> <i class="fas fa-moon" style="padding: 5px;"></i></a></p> -->
+    <!-- <p class="options"><a class="buble" href="#">My Projects</a></p> -->
     <br>
     <br>
     <br>
@@ -41,6 +41,17 @@
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path fill="#9000ca" fill-opacity="1" d="M0,256L80,218.7C160,181,320,107,480,69.3C640,32,800,32,960,64C1120,96,1280,160,1360,192L1440,224L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
   </svg>
+  <p class="Fact">Choose a theme</p>
+  <div class="ThemeDiv">
+      <button class="Sun" id="sun">
+        <i class="fas fa-sun" style="padding: 5px;"></i>
+      </button>
+      <button class="Moon" id="moon">
+        <i class="fas fa-moon" style="padding: 5px;"></i>
+      </button>
+  </div>
+  <br>
+  <br>
   <br>
   <div class="postbox">
     <div class="hornborder">
@@ -70,7 +81,7 @@
   <br>
   <br>
   <p class="textBold">My Projects</p>
-  <p class="text12" style="text-align: center; font-weight: bolder; font-size: 20px;">Here is a few of my current projects</p>
+  <p class="text12">Here is a few of my current projects</p>
 <br>
 <br>
 <div class="Card">
@@ -81,8 +92,6 @@
     <p>Fully customizable Discord.JS bot</p>
     <div style="margin: 24px 0;">
       <a href="https://discord.com/api/oauth2/authorize?client_id=784903173767823370&permissions=8&scope=applications.commands%20bot"><i class="fab fa-discord"></i></a> 
-      <a><i class="fas fa-external-link-alt" style="color: #444242;"></i></a>  
-      <a><i class="fas fa-server" style="color: #444242;"></i></a>
       <a href="https://github.com/TeamNorden/Goot"><i class="fab fa-github"></i></a>
     </div>
     <p><button><a href="https://goose.thedev.id/goot" style="color: white;">Learn More</a></button></p>
@@ -90,13 +99,14 @@
 <br>
 <br>
 <br>
-    <p class="Fact">Fun fact, this site was made in vanilla HTML, CSS, and JS 😳</p>
+<p class="Fact">Fun fact, this site was made in vanilla HTML, CSS, and JS 😳</p>
 <br>
 <br>
 <br>
+<script src="/js/script.js"></script> 
 <div class="greeen1">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path fill="#ffffff" fill-opacity="1" d="M0,256L1440,96L1440,0L0,0Z"></path>
+    <path fill="var(--background-color)" fill-opacity="1" d="M0,256L1440,96L1440,0L0,0Z"></path>
   </svg>
   <br>
   <p class="propo1">Domain by Thedev.id</p>
