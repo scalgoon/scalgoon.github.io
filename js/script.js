@@ -1,4 +1,4 @@
-if(document.URL.includes('index.html')) {
+if(document.URL.includes('https://goose.thedev.id/')) {
 
   const ThemeToUse = localStorage.getItem("SiteTheme");
 
@@ -33,7 +33,7 @@ moon.addEventListener('click', () => {
 
 
 
-if(document.URL.includes('goot.html')) {
+if(document.URL.includes('goose.thedev.id/goot')) {
 // MODAL FUNCTIONS
 
 var modal = document.getElementById("myModal");
