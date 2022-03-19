@@ -1,11 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body, html {
+    --accent-color: #5000ca;
+    --accent-color-2: #9000ca;
+    --background-color: white;
+    --container-background: #e2dcdc;
+    --div-background-color: white;
+    --icon-color: black;
+    --white-hover-color: #ebe8e8;
+    --box-shadow: rgb(179, 179, 179);
+    --usertext-color: #9000ca;
+    --usertext-color2: #5000ca;
+
     background-size: cover;
-    background-color: #fff;
+    background-color: var(--background-color);
     margin: 0;
     font-family: 'Poppins', sans-serif;
   }
+
+body.darkTheme, html {
+    --accent-color: #6e32c9;
+    --accent-color-2: #a02fcc;
+    --background-color: #302e2e;
+    --container-background: #302e2e;
+    --div-background-color: #444242;
+    --icon-color: white;
+    --white-hover-color: #535151;
+    --box-shadow: rgb(71, 70, 70);
+    --usertext-color: white;
+    --usertext-color2: white;
+
+    background-size: cover;
+    background-color: var(--background-color);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
 
   hr.rounded {
     border-top: 8px solid #bbb;
@@ -22,7 +51,7 @@ body, html {
 
 
   header {
-    background: rgb(144,0,202);
+    background: #9000ca;
     background: linear-gradient(0deg, rgba(144,0,202,1) 4%, rgba(80,0,202,1) 100%);
     width: 100%;
     height: 290px;
@@ -71,14 +100,15 @@ body, html {
   }
   
   .modal-content {
-    background-color: #fefefe;
+    background-color: var(--div-background-color);
     margin: auto;
-    border: 1px solid #888;
+    border: 1px solid rgba(0, 0, 0, 0);
     width: 80%;
     border-radius: 1rem;
     max-width: 300px;
     margin: auto;
     text-align: center;
+    color: var(--icon-color);
   }
 
   .Buttons {
@@ -220,15 +250,20 @@ body, html {
 
   .MakeCB .Reason {
     font-size: 20px;
-    color: #000000;
+    color: var(--icon-color);
   }
 
   .Card {
-    box-shadow: 0px 2px 5px rgb(179, 179, 179);
+    box-shadow: 0px 2px 5px var(--box-shadow);
     max-width: 300px;
     margin: auto;
     text-align: center;
     border-radius: 1rem;
+    background-color: var(--div-background-color);
+  }
+
+  .Card .textBold {
+    color: var(--usertext-color2);
   }
   
   .Card .title {
@@ -255,6 +290,14 @@ body, html {
     font-size: 22px;
     color: black;
   }
+
+  .Card a .fab {
+    color: var(--icon-color);
+  }
+
+  .Card p {
+    color: var(--icon-color);
+  }
   
   .Card button:hover {
     opacity: 0.7;
@@ -265,6 +308,10 @@ body, html {
     justify-content: center;
     align-items: center;
     animation: opac 4s;
+  }
+
+  .navButtons .fab {
+    color: var(--icon-color);
   }
 
   @keyframes opac {
@@ -278,8 +325,7 @@ body, html {
   }
 
   .navBut1 {
-    color: #9000ca;
-    background-color: white;
+    background-color: var(--div-background-color);
     width: 5rem;
     padding: 1rem;
     border: none;
@@ -287,12 +333,11 @@ body, html {
   }
 
   .navBut1:hover {
-    background-color: rgb(235, 232, 232)
+    background-color: var(--white-hover-color);
   }
 
   .navBut2 {
-    color: #9000ca;
-    background-color: white;
+    background-color: var(--div-background-color);
     width: 5rem;
     padding: 1rem;
     border: none;
@@ -300,7 +345,7 @@ body, html {
   }
 
   .navBut2:hover {
-    background-color: rgb(235, 232, 232)
+    background-color: var(--white-hover-color);
   }
 
   .fab {
@@ -308,11 +353,11 @@ body, html {
   }
 
   .hornborder .fas {
-    color: #9000ca;
+    color: var(--usertext-color);
     padding: 1rem;
     font-size: 40px;
     /* border: 1px solid white; */
-    background-color: white;
+    background-color: var(--div-background-color);
     border-radius: 1rem 1rem 0px 0px;
     float: left;
   }
@@ -320,15 +365,19 @@ body, html {
   .user {
     padding: 1rem;
     /* border: 1px solid white; */
-    background-color: white;
+    background-color: var(--div-background-color);
     border-radius: 1rem;
-    box-shadow: 0px 2px 5px rgb(179, 179, 179);
+    box-shadow: 0px 2px 5px var(--box-shadow);
+  }
+
+  .user p {
+    color: var(--icon-color);
   }
 
   .usertext {
     font-size: 24px;
     font-weight: bold;
-    color: #9000ca;
+    color: var(--usertext-color);
     float: left;
   }
 
@@ -338,7 +387,7 @@ body, html {
 
   .container {
     width: 100%;
-    background-color: #ddd;
+    background-color: var(--container-background);
     border-radius: 1rem;
   }
   
@@ -427,7 +476,7 @@ body, html {
 
 .textBold {
   text-align: center;
-  color: #5000ca;
+  color: var(--accent-color);
   font-size: 35px;
   font-weight: bold;
 }
@@ -466,10 +515,10 @@ body, html {
   font-size: 45px;
 }
 
-.text122 {
+.text12 {
   text-align: center;
-  color: #000000;
-  font-size: 25px;
+  color: var(--icon-color);
+  font-size: 20px;
 }
 
 .alert {
@@ -996,4 +1045,41 @@ border-top: 2px solid #727fe8;
 .Fact {
   text-align: center;
   font-size: 17px;
+  color: var(--icon-color);
+}
+
+.ThemeDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ThemeDiv .Sun {
+  background-color: #fccf3d; 
+  color: white; 
+  font-size: large;
+  cursor: pointer;
+  width: 5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem 0px 0px 1rem;
+}
+
+.ThemeDiv .Sun:hover {
+  background-color: #f3c221;
+}
+
+.ThemeDiv .Moon {
+  background-color: #444242; 
+  color: white; 
+  font-size: large;
+  cursor: pointer;
+  width: 5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0px 1rem 1rem 0px;
+}
+
+.ThemeDiv .Moon:hover {
+  background-color: #272626;
 }
