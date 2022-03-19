@@ -1,4 +1,4 @@
-if(document.URL.includes('https://goose.thedev.id/')) {
+if(document.URL.includes('goose.thedev.id')) {
 
   const ThemeToUse = localStorage.getItem("SiteTheme");
 
