@@ -226,3 +226,9 @@ header {
   .Github:hover {
     background-color: #60616d;
   }
+
+  @media screen and (max-width: 650px) {
+    .Waves {
+      display: none;
+     }
+  }
