@@ -234,3 +234,21 @@ header {
   .Github:hover {
     background-color: #60616d;
   }
+
+.cred {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .credit {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .credit a {
+    color: #ebe8e8;
+    font-weight: bolder;
+    font-family: 'Merriweather Sans', sans-serif;
+  }
