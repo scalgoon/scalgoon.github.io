@@ -1,35 +1,36 @@
-const ThemeToUse = localStorage.getItem("SiteTheme");
+function resetParticle(particle) {
+    // Random position
+    const posX = Math.random() * 100;
+    const posY = Math.random() * 100;
 
-if(ThemeToUse == 1) {
+    particle.style.left = `${posX}%`;
+    particle.style.top = `${posY}%`;
+    particle.style.opacity = '0';
 
-    let cssRoot = document.documentElement;
+    return {
+        x: posX,
+        y: posY
+    };
+}
 
-    cssRoot.style.setProperty('--siteBackgroundPc', "none");
-    
-    cssRoot.style.setProperty('--siteBackgroundMobile', "none");
+function animateParticle(particle) {
+    const pos = resetParticle(particle);
 
-} else if (ThemeToUse == 2) {
+    const duration = Math.random() * 10 + 10;
+    const delay = Math.random() * 5;
 
-    let min = 0, max = 359;
+    setTimeout(() => {
+        particle.style.transition = `all ${duration}s linear`;
+        particle.style.opacity = Math.random() * 0.3 + 0.1;
 
-    let randomHue = Math.round(Math.random() * (max - min) + min);
-    
-    let cssRoot = document.documentElement;
-    
-    cssRoot.style.setProperty('--darkColor', `hsl(${randomHue}, 72%, 8%)`);
-    
-    cssRoot.style.setProperty('--lightColor', `hsl(${randomHue}, 72%, 68%)`);
+        const moveX = pos.x + (Math.random() * 20 - 10);
+        const moveY = pos.y - Math.random() * 30; // Move upwards
 
-} else if (!ThemeToUse) {
+        particle.style.left = `${moveX}%`;
+        particle.style.top = `${moveY}%`;
 
-    let min = 0, max = 359;
-
-    let randomHue = Math.round(Math.random() * (max - min) + min);
-    
-    let cssRoot = document.documentElement;
-    
-    cssRoot.style.setProperty('--darkColor', `hsl(${randomHue}, 72%, 8%)`);
-    
-    cssRoot.style.setProperty('--lightColor', `hsl(${randomHue}, 72%, 68%)`);
-
+        setTimeout(() => {
+            animateParticle(particle);
+        }, duration * 1000);
+    }, delay * 1000);
 }
